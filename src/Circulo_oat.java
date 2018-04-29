@@ -7,7 +7,10 @@ public class Circulo_oat extends FiguraGeometrica_oat {
 	public Circulo_oat(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
-	}
+		if (r<0) {
+			r=r*(-1);}
+		}
+	
 
 	@Override
 	public double area() {
