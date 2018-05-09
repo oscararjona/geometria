@@ -1,3 +1,4 @@
+import org.junit.Test;
 
 public class Triangulo_oat extends FiguraGeometrica_oat {
 	private double a;
@@ -25,3 +26,4 @@ public class Triangulo_oat extends FiguraGeometrica_oat {
 	
 	
 }
+
